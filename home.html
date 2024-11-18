@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastVibe</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/homeMain.css" />
+    <link rel="stylesheet" href="./css/log.sign.css" />
+    <link rel="stylesheet" href="./css/burgerBar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+  </head>
+  <body id="body">
+    <div class="backblur">
+      <header id="header">
+        <section class="imgsTable" id="imgsTable">
+          <div class="top-shadow"></div>
+          <div class="img-container1" id="img-container1"></div>
+          <div class="img-container" id="img-container2"></div>
+          <div class="img-container" id="img-container3"></div>
+          <div class="img-container" id="img-container4"></div>
+          <div class="bottom-shadow"></div>
+        </section>
+        <img src="./img/ProjectLogosilver.svg" alt="" class="silverImg" />
+        <section class="all" id="all">
+          <div id="burger-menu">
+            <span></span>
+          </div>
+          <h1 class="h1">
+            <img src="./img/ProjectLogo.svg" alt="" class="logo-img" />Fast Vibe
+          </h1>
+
+          <nav class="nav" id="navmenu">
+            <div id="menudv" class="menudv">
+              <ul class="menu" id="menu">
+                <li>
+                  <a href="./home.html" class="menu-link menuHm"> Home</a>
+                </li>
+                <li>
+                  <a href="" class="menu-link">&Showvs</a>
+                </li>
+                <li><a href="#" class="menu-link">Support</a></li>
+              </ul>
+            </div>
+            <div class="twix">
+              <i class="fa-solid fa-circle-user" id="avatar"></i>
+              <i class="fa fa-search" id="searchbar-icon"></i>
+            </div>
+
+            <div class="searchFiltr" id="searchFiltr">
+              <div class="input">
+                <input
+                  type="search"
+                  id="searchBar-input"
+                  class="searchBar-input"
+                  placeholder="Enter name"
+                />
+                <i class="fa-solid fa-xmark" id="searchbar-close"></i>
+              </div>
+              <div class="resultulDv">
+                <ul class="ul-filter-result" id="ul-filter-result"></ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+        <div class="chooseDv">
+          <h1 class="chooseH" style="color: blueviolet">Choose and get It</h1>
+          <p
+            class="chooseP"
+            style="
+              color: gray;
+              font-size: 30px;
+              width: 80%;
+              padding: 20px;
+              margin-left: auto;
+              margin-right: auto;
+            "
+          >
+            FastVibe is the best streaming experience for watching your favorite
+            movies and shows on demand, anytime, anywhere. With FastVibe, you
+            can enjoy a wide variety of content, including the latest
+            blockbusters, classic movies, popular TV shows, and more.
+          </p>
+        </div>
+        <h1
+          style="
+            font-family: 'Courier New', Courier, monospace;
+            color: blueviolet;
+            font-size: 50px;
+            transform: translateY(20px);
+            margin-left: 20px;
+            padding: 20px;
+          "
+        >
+          Choose your style
+        </h1>
+      </header>
+
+      <div class="cookiesDv cookie-alert" id="cookies">
+        <div class="titlesDV">
+          <h5 class="card-title">&#x1F36A; Do you like cookies?</h5>
+          <p class="card-text">
+            We use cookies to ensure you get the best experience on our website.
+          </p>
+          <div class="acceptDv">
+            <a
+              href="http://cookiesandyou.com/"
+              target="_blank"
+              class="btn btn-link"
+              >Learn more</a
+            >
+            <a href="#" class="acceptCookies" id="accept">Accept</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="loginsection" class="loginsection">
+      <img src="./img/Itachi-Uchiha-1.svg" alt="" class="itachi1" />
+
+      <form id="formLogin" class="formLg">
+        <h1 class="h1frm">Member Login</h1>
+        <p class="pfrm">
+          FastVibe - a better place to watch your favorite series online for
+          free!
+        </p>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          id="loginEmail"
+          class="inputtext email"
+        />
+        <input
+          type="password"
+          name="password"
+          id="loginpassword"
+          placeholder="Your Password"
+          class="inputtext password"
+        />
+        <i class="fa-solid fa-lock" id="fa-lock"></i>
+        <p class="error" id="error-passwordLG"></p>
+        <button type="submitLG" class="submit sbLG" id="loginButton">
+          Log In
+        </button>
+        <p class="pfrm">
+          Don't have an account?
+          <span class="go" id="goReg">Register</span>
+        </p>
+      </form>
+      <section class="profile" id="profile">
+        <h1 class="h1frm profileh1">Fast Vibe PROFILE</h1>
+        <div class="usernameDV">
+          <i class="fa-solid fa-user"></i>
+          <h2 class="profileUsername" id="profileUsername"></h2>
+        </div>
+        <button class="submit" id="logout">Log out</button>
+      </section>
+      <i class="fa-brands fa-x-twitter" id="quit"></i>
+    </section>
+
+    <section class="sectionRg" id="sectionRg">
+      <img src="./img/itachi-Uchicha-2.svg" alt="" class="itachi2" />
+      <form action="" id="formRg" class="formRg">
+        <h1 class="h1frm">Register</h1>
+        <p class="pfrm">
+          When becoming members of the site, you could use the full range of
+          functions.
+        </p>
+        <div>
+          <input
+            type="username"
+            name="username"
+            placeholder="Username"
+            id="usernameField"
+            class="inputtext username"
+          />
+          <p class="error" id="error-username"></p>
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            id="emailField"
+            class="inputtext username"
+          />
+          <p class="error" id="error-email"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="passwordd"
+            placeholder="Your password"
+            id="passwordField"
+            class="inputtext password"
+          />
+          <i class="fa-regular fa-eye eye1" id="eyeicon"></i>
+          <p class="error" id="error-password"></p>
+        </div>
+
+        <div>
+          <input
+            type="password"
+            name="password2"
+            placeholder="Repeat your password"
+            id="passwordField2"
+            class="inputtext password"
+          />
+          <i class="fa-regular fa-eye eye2" id="eyeicon2"></i>
+          <p class="error" id="error-password2"></p>
+        </div>
+        <button type="submitRG" class="submit sbRG">Register</button>
+        <p class="pfrm">
+          Have an account?
+          <span class="go" id="goLog">Sign-in</span>
+        </p>
+      </form>
+      <i class="fa-brands fa-x-twitter" id="quit2"></i>
+    </section>
+
+    <section class="sliders">
+      <div class="splide splide-1" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list" id="slider1"></ul>
+        </div>
+      </div>
+      <div class="splide splide-2" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list" id="slider2"></ul>
+        </div>
+      </div>
+      <div class="splide splide-3" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list" id="slider3"></ul>
+        </div>
+      </div>
+    </section>
+
+    <script></script>
+    <section class="middleSection" style="">
+      <h1 style="color: blueviolet; font-size: 45px">
+        We Provide you streaming experience across various devices.
+      </h1>
+      <p style="color: gray; font-size: 25px; width: 70%">
+        With FastVibe, you can enjoy your favorite movies and TV shows anytime,
+        anywhere. Our platform is designed to be compatible with a wide range of
+        devices, ensuring that you never miss a moment of entertainment.
+      </p>
+
+      <section>
+        <div class="accordion-wraper">
+          <h2>Accordion Information</h2>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i
+                class="fa-solid fa-mobile-button fa-table-icons accordionicn"
+              ></i
+              >Smartphones
+            </h1>
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i class="fa-solid fa-tablet fa-table-icons accordionicn"></i
+              >Tablet
+            </h1>
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i class="fa-solid fa-tv fa-table-icons accordionicn"></i>Smart TV
+            </h1>
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i class="fa-solid fa-laptop fa-table-icons accordionicn"></i
+              >Laptops
+            </h1>
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i class="fa-solid fa-gamepad fa-table-icons accordionicn"></i
+              >Gaming Consoles
+            </h1>
+
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+          <div class="accordion">
+            <h1 class="accordion-title">
+              <i
+                class="fa-solid fa-vr-cardboard fa-table-icons accordionicn"
+              ></i
+              >VR
+            </h1>
+
+            <p class="accordion-descr">
+              FastVibe is optimized for both Android and iOS smartphones.
+              Download our app from the Google Play Store or the Apple App Store
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="middleDV"></div>
+    <section class="parent">
+      <div class="imgsDv" id="imgs">
+        <div class="line headlines" id="firstdv"></div>
+        <div class="line middleline1" id="middledv"></div>
+        <div class="line middleline2" id="middledv2"></div>
+        <div class="line middleline3" id="middledv3"></div>
+        <div class="line middleline4" id="middledv4"></div>
+        <div class="line middleline5" id="middledv5"></div>
+        <div class="line lastline" id="lastdv"></div>
+      </div>
+    </section>
+    <div class="backTop">
+      <a class="btn-back2top"><i class="fa-solid fa-jet-fighter-up"></i></a>
+    </div>
+    <footer>
+      <div class="divFooter">
+        <h1 class="h1footer">Contact US</h1>
+        <div class="social" id="social">
+          <a href="https://www.facebook.com" class="fa fa-facebook" id="fa"></a>
+          <a href="https://x.com" class="fa fa-twitter" id="fa"></a>
+          <a href="https://www.youtube.com" class="fa fa-youtube" id="fa"></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <script src="./node_modules/gsap/dist/gsap.min.js"></script>
+    <script src=" 
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/scriptHM.js"></script>
+  </body>
+</html>

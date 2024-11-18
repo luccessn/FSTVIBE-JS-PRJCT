@@ -1,0 +1,27 @@
+{
+    "products": [
+      { "id": "1", "name": "Breaking Bad", "start_date": "2008-20-01",  "network":"AMC" , "IMDb_RATING": "9.5" ,"img": "https://i.ytimg.com/vi/cXTejUxflG8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBL6v3eVTDXsfJXBrOKpoEhPMC61g" },
+      { "id": "2", "name": "Game OF Thrones", "start_date": "2011-17-06",  "network":"HBO","IMDb_RATING": "9.2","img": "https://static.hbo.com/game-of-thrones-1-1920x1080.jpg"  },
+      { "id": "3", "name": "LUCIFER", "start_date": "2016-15-08", "network":"NetFlix","IMDb_RATING": "8.0" ,"img": "https://cdns-images.dzcdn.net/images/cover/25eff62c7a349d423b7edad7ff804f95/0x1900-000000-80-0-0.jpg" },
+      { "id": "4", "name": "THE PENGUIN", "start_date": "2024-14-03", "network":"HBO" ,"IMDb_RATING": "8.8","img": "https://bellmedia-images.imgix.net/lede/wp-content/uploads/2024/06/SCRID-1706763617067673_ThePenguinTeaseVersionBS1_3840x2160_LAN-en-US_PUR-tileburnedin.jpg?auto=format&q=60&crop=faces%2C%20edges&ar=16%3A9&fit=crop&ixlib=react-9.8.1&w=1400" },
+      { "id": "5", "name": "VIKINGS", "start_date": "20013-15-09",  "network":"TV-MA","IMDb_RATING": "8.5","img": "https://m.media-amazon.com/images/M/MV5BOTFmZmExYTEtYmE0Mi00MzRmLWE4ZDYtOThiNzNlOTIyODljXkEyXkFqcGc@._V1_.jpg"  },
+      { "id": "6", "name": "Shōgun", "start_date": "2024-10-03",  "network":"FX","IMDb_RATING": "8.6" ,"img": "https://m.media-amazon.com/images/M/MV5BZmJkMDRjYzEtMWI3Ny00OWE3LWJlNTItMGQ1MTQzMzc3NDY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "id": "7", "name": "House of the Dragon", "start_date": "2022-14-01", "network":"HBO" ,"IMDb_RATING": "8.3","img": "https://www.midiaresearch.com/storage/uploads/blog/featured/1712/cover_image-1661358715.jpg" },
+      { "id": "8", "name": "NARUTO", "start_date": "2002-01-04",  "network":"TV-PG","IMDb_RATING": "8.4" ,"img": "https://lh3.googleusercontent.com/HnWqAQyaUyy3tfamHwKc30CCqWbLWaS-WTZ8CN3scmMxNStaY-RzIg92N6S6Vh1YXD3_Ttr975Ux9Ulwi-XKLesUBw=s1280-w1280-h800" },
+      { "id": "9", "name": "Demon Slayer", "start_date": "2019-09-10", "network":"TV-MA","IMDb_RATING": "8.6" ,"img": "https://i1.sndcdn.com/artworks-tZG5OE3HDdMzkyPt-9URnrA-t1080x1080.jpg" },
+      { "id": "10", "name": "JUJUTSU KAISEN", "start_date": "2020-05-04",  "network":"TV-MA" ,"IMDb_RATING": "8.5","img": "https://i.pinimg.com/originals/23/4c/72/234c72a6fdb8a993cd9f68deaf9bd661.jpg" },
+      { "id": "11", "name": "Attack On Titan", "start_date": "2013-20-11",  "network":"TV-MA" ,"IMDb_RATING": "9.1","img": "https://resizing.flixster.com/AH7gPPmXHjnYTpFsQAf_TMY1ygg=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10873160_b_h9_aa.jpg" },
+      { "id": "12", "name": "Samurai Champloo", "start_date": "2004-14-01",  "network":"TV-MA" ,"IMDb_RATING": "8.5","img": "https://wallpapers.com/images/hd/samurai-champloo-pictures-tw2mxfi46ngcg2pu.jpg" },
+      { "id": "13", "name": "BERSEKR", "start_date": "1997-13-02",  "network":"TV-MA","IMDb_RATING": "8.7" ,"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpE-NXKXEi748ywhGMvCrLWd309Zcz1I-R1dDM_7lgVvYZfm549Tqw7IVv8xJHWLDvum4&usqp=CAU" },
+      { "id": "14", "name": "One Piece", "start_date": "1999-14-12", "network":"TV-14","IMDb_RATING": "9.0","img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/One-Piece-Triptych.jpg"  },
+      { "id": "15", "name": "the office", "start_date": "2005-14-07",  "network":"TV-14" ,"IMDb_RATING": "9.0","img": "https://www.tallengestore.com/cdn/shop/products/91TmR1v-qRL._RI_6381f3ff-2abf-4575-9379-2256bcacf06c_grande.jpg?v=1570155292"  },
+      { "id": "16", "name": "Curb YR Enthusiasm", "start_date": "2000-22-05",  "network":"HBO" ,"IMDb_RATING": "8.8","img": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/12/curb-your-enthusiasm.jpg"  },
+      { "id": "17", "name": "F*R*I*E*N*D*S", "start_date": "1994-29-08",  "network":"TV-14" ,"IMDb_RATING": "8.9" ,"img": "https://i.pinimg.com/736x/ac/f9/41/acf941157e3719eb7da2ce3426cc9133.jpg" },
+      { "id": "18", "name": "the Simpsons", "start_date": "1989-20-04", "network":"TV-14"  ,"IMDb_RATING": "8.7","img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-dq_GzrV9ZZ4pq0ma3gjus8z3jk5c5hukLrcoaoY0ApOJAk8A" },
+      { "id": "19", "name": "Suits", "start_date": "2011-27-04", "network":"TV-14" ,"IMDb_RATING": "8.4" ,"img": "https://m.media-amazon.com/images/M/MV5BYmE4MmNjZjUtNTEyNy00NTZiLWE4NTktYjM2NjBhYzQ1N2IzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "id": "20", "name": "Rick and Morty", "start_date": "2013-14-10",  "network":"TV-MA" ,"IMDb_RATING": "9.1" ,"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85E87er2jOcmsTlKZdbGiiHuSQrHjzG72Vw&s" },
+      { "id": "21", "name": "THE BOYS", "start_date": "2019-06-09",  "network":"NetFlix"  ,"IMDb_RATING": "8.7","img": "https://cdn-images.dzcdn.net/images/cover/a88c447b0719aefbd78691891ef817de/0x1900-000000-80-0-0.jpg" }
+
+     
+    ]
+  }

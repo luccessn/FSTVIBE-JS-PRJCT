@@ -1,0 +1,310 @@
+
+body.overflow{
+    overflow-y: hidden;
+    
+}
+.backblur.blur{
+    filter:blur(8px);
+}
+.loginsection{
+    /* transform: translateY(-500%); */
+    /* transform: translateY(-200%) translateX(85%); */
+position: absolute;
+    /* background-color:rgb(131, 81, 79); */
+    background-color: black;
+        width: 880px;
+        height: 500px;
+        border-radius: 15px;
+    /* backdrop-filter: blur(50px); */
+    display: none;
+    top: 5%;
+    left: 30%;
+    animation: fadein 2.5s;
+-moz-animation: fadein 2.5s; /* Firefox */
+-webkit-animation: fadein 2.5s; /* Safari and Chrome */
+-o-animation: fadein 2.5s; /* Opera */
+
+
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.loginsection.active{
+    display: block;
+  
+   
+}
+.itachi1{
+    width: 530px;
+    height: 557px;
+}
+.formLg{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    gap: 20px;
+    flex-direction: column;
+   padding-top: 25px;
+    width: 50%;
+
+}
+.formLg.hide{
+    display: none;
+}
+.inputtext{
+    outline: none;
+    padding: 10px;
+    padding-left: 20px;
+    width: 95%;
+    height: 55px;
+    border-radius: 5px;
+    background-color:rgb(245, 179, 179);
+    border: none;
+}
+.inputtext:hover{
+    background-color:rgb(248, 152, 152);
+    transition: all 1.2s;
+}
+.h1frm{
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+}
+.pfrm{
+    font-size: 22px;
+    text-indent: 10px;
+    margin-left: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+    text-align: center;
+}
+
+#fa-lock{
+    position: absolute;
+    top: 57.5%;
+    right: 25px;
+    font-size: 35px;
+}
+.submit{
+    width: 95%;
+    height: 40px;
+    background-color:rgb(235, 87, 87);
+    border: none;
+    font-size: 25px;
+}
+.fa-x-twitter{
+    color: wheat;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font-size: 30px;
+}
+/* signUp */
+.go{
+    cursor: pointer;
+    color:blueviolet ;
+}
+/* sectionRg */
+.sectionRg{
+    background-color: black;
+    width: 880px;
+    height: 600px;
+    border-radius: 15px;
+/* backdrop-filter: blur(50px); */
+position: relative;
+top: 5%;
+left: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    display: none;
+    position: absolute;
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -o-animation: fadein 2.5s; /* Opera */
+}
+.sectionRg.active{
+    display: block;
+}
+.itachi2{
+    width: 530px;
+    height: 100%;
+}
+.formRg{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+.password{
+    
+}
+.fa-regular{
+    font-size: 35px;
+    color: rebeccapurple;
+}
+.eye1{
+    position: absolute;
+    top: 58%;
+    right: 25px;
+  
+}
+.eye2{
+   position: absolute;
+   right: 25px;
+   top: 72.5%;
+}
+.backlgP{
+    margin-top: 10px;
+}
+.error{
+    height: 10px;
+}
+/* profile */
+.profile{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    gap: 20px;
+  flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    display: none;
+}
+.usernameDV{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.profile.active{
+    display: block;
+}
+.fa-user{
+  
+    font-size: 70px;
+    color:rgb(104, 4, 4)
+}
+.profileUsername{
+    color: wheat;
+    font-size: 45px;
+}
+@media (max-width:1400px){
+    .loginsection{
+        left: 25%;
+    }
+    .sectionRg{
+        left: 25%;
+    }
+}
+@media (max-width:1300px){
+    .loginsection{
+        left: 15%;
+    }
+    .sectionRg{
+        left: 15%;
+    }
+}
+@media (max-width:1024px){
+    .loginsection{
+        left: 15%;
+        width: 650px;
+        height: 500px;
+    }
+    .formLg{
+        height: 480px;
+    }
+    .sectionRg{
+        left: 15%;
+        width: 650px;
+        height: 600px;
+    }
+    #fa-lock{
+        top: 62%;
+    }
+}
+@media (max-width:800px){
+    .loginsection{
+        left: 15%;
+        width: 450px;
+        height: 300px;
+    }
+   
+    .itachi1{
+        width: 330px;
+        height: 335px;
+    }
+    .formLg{
+        height: 20%;
+        gap: 12px;
+    }
+    #fa-lock{
+        font-size: 25px;
+        top: 165px;
+    }
+    .inputtext{
+        height: 35px;
+    }
+    .h1frm{
+font-size: 20px;
+    }
+    .pfrm{
+        font-size: 15px;
+    }
+    .sectionRg{
+        left: 15%;
+        width: 450px;
+        height: 500px;
+    }
+    .itachi2{
+        width: 380px;
+        
+    }
+    
+    .eye1{
+        font-size: 25px;
+        top: 54%;
+    }
+    .eye2{
+        font-size: 25px;
+        top: 69%;
+    }
+}
